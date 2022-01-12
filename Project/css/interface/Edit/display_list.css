@@ -1,0 +1,30 @@
+.limit-1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.one-line{
+    
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.6;
+    -webkit-line-clamp: 1;
+    height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.submit-btn{
+    display: inline-block;
+    background-image: linear-gradient(125deg, #a72870,#064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 160px;
+    cursor: pointer;
+}
